@@ -1,7 +1,7 @@
 'useStrict';
 
 function personMaker() {
-  var person = {
+  let person = {
     firstName: 'Paul',
     lastName: 'Jones',
     fullName: function(){
