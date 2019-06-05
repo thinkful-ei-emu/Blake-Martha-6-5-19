@@ -1,3 +1,5 @@
+'use strict';
+
 function validateKeys(object, expectedKeys){
   let workingArray = Object.keys(object);
   let falseCounter = 0;

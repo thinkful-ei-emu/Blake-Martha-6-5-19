@@ -2,7 +2,7 @@
 
 function enrollInSummerSchool(students){
   for (let i = 0 ; i < students.length; i++){
-    students[i].status = 'inSummerSchool'
+    students[i].status = 'inSummerSchool';
     console.log(`${students[i].name} status : ${students[i].status}`);
   }
   return students;
