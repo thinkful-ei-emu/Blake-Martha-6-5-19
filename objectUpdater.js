@@ -10,4 +10,5 @@ function updateObject(obj){
 }
 
 let newObj = {};
-console.log(updateObject(newObj));
+updateObject(newObj);
+console.log(newObj);
