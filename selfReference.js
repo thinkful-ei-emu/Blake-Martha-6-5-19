@@ -1,4 +1,4 @@
-'useStrict';
+'use strict';
 
 function personMaker() {
   var person = {
