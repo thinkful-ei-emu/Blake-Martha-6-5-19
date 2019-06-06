@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 'use strict';
 
 const plebArray = [{name: 'Blake', jobTitle: 'Astronaught', Boss: 'Frederick'}, {name: 'Martha', jobTitle: 'Dog WALKER', Boss: 'Frederick'},

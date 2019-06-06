@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 'use strict';
 
 function decodeWords(word){
@@ -8,10 +9,17 @@ function decodeWords(word){
     d: 4,
   };
   
-  if (word[0] in decoder){
-    console.log(word[decoder[word[0]]]);
+  if (word.charAt(0) in decoder){
+    //console.log(word[decoder[word[0]]]);
+    return word.charAt(decoder[word.charAt(0)] - 1 );
+  }
+  else {
+    return ' ';
   }
 }
 
-const test = decodeWords('apple');
-//console.log(test);
+console.log(decodeWords('banana'));
+console.log(decodeWords('tree'));
+console.log(decodeWords('bread'));
+console.log(decodeWords('dearly'));
+console.log(decodeWords('appocolypse'));

@@ -11,4 +11,4 @@ const obj ={
 for (let item in obj){
   let keys = obj[item];
   console.log(item , keys);
-};
+}
