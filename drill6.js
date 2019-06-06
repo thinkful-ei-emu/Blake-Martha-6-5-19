@@ -8,7 +8,6 @@ function decodeWords(word){
     c: 3,
     d: 4,
   };
-  
   if (word.charAt(0) in decoder){
     //console.log(word[decoder[word[0]]]);
     return word.charAt(decoder[word.charAt(0)] - 1 );
